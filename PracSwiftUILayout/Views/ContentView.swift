@@ -9,21 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("서울 특별시")
-                .font(.largeTitle)
-            HStack {
-                Text("GangNam-Gu 역삼동 135-080")
-                    .font(.subheadline)
-                    .fontWeight(.heavy)
-                
-                Spacer()
-                
-                Text("Korea")
-                    .font(.subheadline)
+        NavigationView {
+            List {
+                Image(systemName: "star")
+                Text("Hello")
+                Text("Hello")
+                Text("Hello")
+                Text("Hello")
             }
+                .navigationTitle("We웃")
+            
         }
-        .padding()
+        
     }
 }
 
