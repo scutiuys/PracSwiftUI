@@ -9,7 +9,28 @@ import SwiftUI
 
 struct FeedList: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                ScrollView(.vertical, showsIndicators: false) {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack {
+                            FeedRow()
+                                .frame(width: 300)
+                            FeedRow()
+                                .frame(width: 300)
+                            FeedRow()
+                                .frame(width: 300)
+                        }
+                    }
+                    FeedRow()
+                    FeedRow()
+                    FeedRow()
+                    FeedRow()
+                }
+            }
+            .padding()
+            .navigationTitle("WE웃")
+        }
     }
 }
 
