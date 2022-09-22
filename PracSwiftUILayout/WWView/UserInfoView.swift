@@ -8,13 +8,33 @@
 import SwiftUI
 
 struct UserInfoView: View {
+        
+    var userInfo: UserInfo
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            CircleImage()
+            VStack(alignment: .leading) {
+                HStack {
+                    Text(userInfo.id)
+                        .font(.headline)
+                    Spacer()
+                        
+                    Text("\(Date().timeIntervalSinceNow))")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                        .lineLimit(1)
+                }
+                Text(userInfo.address)
+                    .font(.subheadline)
+                    
+            }
+        }
     }
 }
 
 struct UserInfoView_Previews: PreviewProvider {
     static var previews: some View {
-        UserInfoView()
+        UserInfoView(userInfo: UserInfo(id: "name31523532151234", address: "성남시 분당구 서현 12314", imageName: "silversalmoncreek"))
     }
 }
