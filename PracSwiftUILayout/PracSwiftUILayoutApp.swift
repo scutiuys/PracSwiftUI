@@ -11,7 +11,7 @@ import SwiftUI
 struct PracSwiftUILayoutApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeedList()
         }
     }
 }
