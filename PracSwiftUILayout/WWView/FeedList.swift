@@ -11,24 +11,27 @@ struct FeedList: View {
     var body: some View {
         NavigationView {
             VStack {
-                ScrollView(.vertical, showsIndicators: false) {
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack {
-                            FeedRow()
-                                .frame(width: 300)
-                            FeedRow()
-                                .frame(width: 300)
-                            FeedRow()
-                                .frame(width: 300)
-                        }
+                VStack(spacing: 0) {
+                    HStack {
+                        Image("icNaviLogo")
+                        
+                        Text("위웃")
+                        
+                        Spacer()
                     }
+                    .padding(.leading, 20)
+                    
+                }
+                Text("위웃 거래 최신")
+                ScrollView(.vertical, showsIndicators: false) {
+                   
                     FeedRow()
                     FeedRow()
                     FeedRow()
                     FeedRow()
                 }
+
             }
-            .padding()
             .navigationTitle("WE웃")
         }
     }

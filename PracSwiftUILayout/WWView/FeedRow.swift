@@ -38,7 +38,12 @@ struct FeedRow: View {
                     .lineLimit(1)
             }
         }
-        .padding()
+        .padding(EdgeInsets(top: 14, leading: 16, bottom: 8, trailing: 16))
+        .background(Color.white)
+        .frame(width: UIScreen.main.bounds.width - 10 * 2, alignment: .center)
+        .cornerRadius(16)
+        .shadow(color: Color.black.opacity(0.08), radius: 10, x: 0, y: 4)
+        
         
     }
 }

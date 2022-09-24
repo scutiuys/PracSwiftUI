@@ -11,7 +11,14 @@ import SwiftUI
 struct PracSwiftUILayoutApp: App {
     var body: some Scene {
         WindowGroup {
-            FeedList()
+            TabView {
+                FeedList()
+                    .tabItem {
+                        Label("Star", systemImage: "star")
+                    }
+                    .tabViewStyle(.page)
+            }
+            
         }
     }
 }

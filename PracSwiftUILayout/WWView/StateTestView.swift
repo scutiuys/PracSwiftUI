@@ -7,14 +7,20 @@
 
 import SwiftUI
 
-struct StateTestView: View {
+struct ContentView: View {
+    @State private var showAddView = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+           
+        }
+        
     }
 }
 
+
 struct StateTestView_Previews: PreviewProvider {
     static var previews: some View {
-        StateTestView()
+        ContentView()
     }
 }
