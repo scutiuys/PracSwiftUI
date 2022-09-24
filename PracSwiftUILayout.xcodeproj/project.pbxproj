@@ -19,6 +19,7 @@
 		F0D23CF028DC28C7007751B0 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D23CEF28DC28C7007751B0 /* UserInfo.swift */; };
 		F0D23CF228DC291F007751B0 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D23CF128DC291F007751B0 /* UserInfoView.swift */; };
 		F0D23CF428DC2C9D007751B0 /* FeedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D23CF328DC2C9D007751B0 /* FeedList.swift */; };
+		F0D23CF628DD75B6007751B0 /* StateTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D23CF528DD75B6007751B0 /* StateTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F0D23CEF28DC28C7007751B0 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		F0D23CF128DC291F007751B0 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		F0D23CF328DC2C9D007751B0 /* FeedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedList.swift; sourceTree = "<group>"; };
+		F0D23CF528DD75B6007751B0 /* StateTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F0D23CF128DC291F007751B0 /* UserInfoView.swift */,
 				F0D23CD328DBF56A007751B0 /* CircleImage.swift */,
 				F0D23CF328DC2C9D007751B0 /* FeedList.swift */,
+				F0D23CF528DD75B6007751B0 /* StateTestView.swift */,
 			);
 			path = WWView;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				F0D23CC628DBF278007751B0 /* PracSwiftUILayoutApp.swift in Sources */,
 				F0D23CDA28DBFBC8007751B0 /* ModelData.swift in Sources */,
 				F0D23CD428DBF56A007751B0 /* CircleImage.swift in Sources */,
+				F0D23CF628DD75B6007751B0 /* StateTestView.swift in Sources */,
 				F0D23CF228DC291F007751B0 /* UserInfoView.swift in Sources */,
 				F0D23CD728DBF62A007751B0 /* Landmark.swift in Sources */,
 				F0D23CF428DC2C9D007751B0 /* FeedList.swift in Sources */,
